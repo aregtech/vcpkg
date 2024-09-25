@@ -1,0 +1,29 @@
+{
+  "name": "areg",
+  "version-string": "2.0.0-alpha",
+  "maintainers": "Artak Avetyan <info@aregtech.com>",
+  "description": "An interface centric C++ Framework with tools to help to develop multiprocessing applications based on Object RPC.",
+  "homepage": "https://github.com/aregtech/areg-sdk",
+  "documentation": "https://github.com/aregtech/areg-sdk/wiki",
+  "license": "Apache-2.0",
+  "supports": "windows | linux",
+  "dependencies": [
+    "ncurses",
+    "sqlite3",
+    {
+      "name": "vcpkg-cmake",
+      "host": true,
+      "platform": "windows | linux"
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true,
+      "platform": "windows | linux"
+    },
+    {
+      "name": "vcpkg-msbuild",
+      "host": true,
+      "platform": "windows"
+    }
+  ]
+}
